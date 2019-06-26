@@ -1,0 +1,2 @@
+# AmazeRealise ESLint config
+
