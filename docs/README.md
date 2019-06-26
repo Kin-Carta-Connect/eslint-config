@@ -1,4 +1,4 @@
-> This is a direct copy of https://github.com/airbnb/javascript/blob/master/README.md with our changes
+> This is a direct copy of https://github.com/airbnb/javascript/blob/master/README.md with our changes.
 
 # Airbnb JavaScript Style Guide() {
 

@@ -1,4 +1,4 @@
-const CLIEngine = require('eslint').CLIEngine;
+const { CLIEngine } = require('eslint');
 const configuration = require('..');
 
 const eslintOptions = {

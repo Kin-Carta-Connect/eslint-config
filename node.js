@@ -1,10 +1,10 @@
 module.exports = {
-	plugins: ["node"],
+	plugins: ['node'],
 	extends: [
-		"plugin:node/recommended"
+		'plugin:node/recommended'
 	],
 	rules: {
-		"no-process-exit": "error",
+		'no-process-exit': 'error',
 
 		// Disabled because it causes too much churn and will be moot when we switch to ES2015 modules
 		// 'node/exports-style': [
@@ -12,8 +12,8 @@ module.exports = {
 		// 	'module.exports'
 		// ]
 
-		"node/file-extension-in-import": 0,
-		"node/no-deprecated-api": "error",
+		'node/file-extension-in-import': 0,
+		'node/no-deprecated-api': 'error',
 
 		// Redundant with import/no-extraneous-dependencies
 		// 'node/no-extraneous-import': 'error',
@@ -23,7 +23,7 @@ module.exports = {
 		// 'node/no-missing-import': 'error',
 		// 'node/no-missing-require': 'error',
 
-		"node/no-unpublished-bin": "error",
+		'node/no-unpublished-bin': 'error',
 
 		// Disabled because they're too annoying, see:
 		// https://github.com/mysticatea/eslint-plugin-node/issues/105
@@ -80,9 +80,9 @@ module.exports = {
 			'error',
 			'always'
 		],
-		"node/prefer-promises/dns": 0,
-		"node/prefer-promises/fs": 0,
-		"node/process-exit-as-throw": "error"
+		'node/prefer-promises/dns': 0,
+		'node/prefer-promises/fs': 0,
+		'node/process-exit-as-throw': 'error'
 
 		// Disabled as the rule doesn't exclude scripts executed with `node` but not referenced in 'bin'. See https://github.com/mysticatea/eslint-plugin-node/issues/96
 		// 'node/shebang': '2'

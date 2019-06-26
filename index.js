@@ -34,9 +34,9 @@ module.exports = {
 		].map(require.resolve)
 	],
 	env: {
-		'es6': true,
-		'browser': true,
-		'node': true
+		es6: true,
+		browser: true,
+		node: true
 	},
 	settings: {
 		'import/ignore': [
