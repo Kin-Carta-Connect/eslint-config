@@ -16,8 +16,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "watch": "jest --watch",
+    "test": "jest.cmd",
+    "watch": "jest.cmd --watch",
     "release": "np --no-cleanup --no-yarn"
   },
   "publishConfig": {
