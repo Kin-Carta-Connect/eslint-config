@@ -1,4 +1,4 @@
-# AR ESLint config
+# K+C ESLint config
 
 > The K+C recommended shareable config for ESLint.
 
