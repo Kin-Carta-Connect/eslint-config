@@ -1,6 +1,6 @@
 # AR ESLint config
 
-> The AR recommended shareable config for ESLint.
+> The K+C recommended shareable config for ESLint.
 
 It turns on all the possible errors rules within eslint based on our JS styleguide.
 
@@ -9,23 +9,23 @@ Use it as is or as a foundation for your own config. You can extend or clone and
 ## Installation
 
 ```bash
-npm install -D @amazerealise/eslint-config
+npm install -D @kinandcarta/eslint-config
 ```
 
 ## Usage
 
 This package includes the following configurations:
 
-* @amazerealise/eslint-config - The base code style guide.
-* @amazerealise/eslint-config/node - To be used in addition to "@amazerealise/eslint-config" configuration by projects that use Node.
-* @amazerealise/eslint-config/jest - To be used in addition to "@amazerealise/eslint-config" configuration by projects that use [jest](https://facebook.github.io/jest/).
-* @amazerealise/eslint-config/react - To be used in addition to "@amazerealise/eslint-config" configuration by projects that react [React](https://facebook.github.io/react/).
+* @kinandcarta/eslint-config - The base code style guide.
+* @kinandcarta/eslint-config/node - To be used in addition to "@kinandcarta/eslint-config" configuration by projects that use Node.
+* @kinandcarta/eslint-config/jest - To be used in addition to "@kinandcarta/eslint-config" configuration by projects that use [jest](https://facebook.github.io/jest/).
+* @kinandcarta/eslint-config/react - To be used in addition to "@kinandcarta/eslint-config" configuration by projects that react [React](https://facebook.github.io/react/).
 
-If you've installed `@amazerealise/eslint-config` locally within your project, just set your eslint config to:
+If you've installed `@kinandcarta/eslint-config` locally within your project, just set your eslint config to:
 
 ```bash
 {
-  "extends": "@amazerealise/eslint-config"
+  "extends": "@kinandcarta/eslint-config"
 }
 ```
 
@@ -34,24 +34,24 @@ or if you are working on a Node script:
 ```bash
 {
   "extends": [
-	  "@amazerealise/eslint-config"
-	  "@amazerealise/eslint-config/node"
+	  "@kinandcarta/eslint-config"
+	  "@kinandcarta/eslint-config/node"
   ]
 }
 ```
 
-If you've globally installed @amazerealise/eslint-config using the -g flag, then you'll need to use the absolute path to @amazerealise/eslint-config in your config e.g.
+If you've globally installed @kinandcarta/eslint-config using the -g flag, then you'll need to use the absolute path to @kinandcarta/eslint-config in your config e.g.
 
 ```bash
 {
-  "extends": "/absolute/path/to/@amazerealise/eslint-config"
+  "extends": "/absolute/path/to/@kinandcarta/eslint-config"
 }
 ```
 
 You can also simply use the globally installed configuration name instead of the absolute path:
 
 {
-  "extends": "@amazerealise/eslint-config"
+  "extends": "@kinandcarta/eslint-config"
 }
 
 ### Extending the config
@@ -62,7 +62,7 @@ For example, to change the comma-dangle rule to off:
 
 ```json
 {
-  "extends": "@amazerealise/eslint-config",
+  "extends": "@kinandcarta/eslint-config",
   "rules": {
     "comma-dangle": "off",
   }

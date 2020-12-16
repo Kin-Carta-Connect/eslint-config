@@ -1,18 +1,18 @@
 {
-  "name": "@amazerealise/eslint-config",
+  "name": "@kinandcarta/eslint-config",
   "version": "0.1.2",
-  "description": "AmazeRealise ESLint Shareable Config",
+  "description": "Kin+Carta ESLint Shareable Config",
   "keywords": [
     "eslint",
     "eslint-config",
-    "amazerealise"
+    "kinandcarta"
   ],
-  "author": "Radu Micu, AmazeRealise",
+  "author": "Radu Micu, Kin+Carta",
   "license": "MIT",
-  "homepage": "https://gitlab.com/amazerealise-fe-group/eslint-config#readme",
+  "homepage": "https://github.com/Kin-Carta-Connect/eslint-config#readme",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/amazerealise-fe-group/eslint-config.git"
+    "url": "git@github.com:Kin-Carta-Connect/eslint-config.git"
   },
   "main": "index.js",
   "scripts": {
