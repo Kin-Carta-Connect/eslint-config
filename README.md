@@ -23,7 +23,7 @@ This package includes the following configurations:
 
 If you've installed `@kinandcarta/eslint-config` locally within your project, just set your eslint config to:
 
-```bash
+```json
 {
   "extends": "@kinandcarta/eslint-config"
 }
@@ -31,11 +31,11 @@ If you've installed `@kinandcarta/eslint-config` locally within your project, ju
 
 or if you are working on a Node script:
 
-```bash
+```json
 {
   "extends": [
-	  "@kinandcarta/eslint-config"
-	  "@kinandcarta/eslint-config/node"
+		"@kinandcarta/eslint-config"
+		"@kinandcarta/eslint-config/node"
   ]
 }
 ```
@@ -50,9 +50,11 @@ If you've globally installed @kinandcarta/eslint-config using the -g flag, then 
 
 You can also simply use the globally installed configuration name instead of the absolute path:
 
+```json
 {
   "extends": "@kinandcarta/eslint-config"
 }
+```
 
 ### Extending the config
 
@@ -77,18 +79,20 @@ To deploy a new version, make sure you have a clean `node_modules` folder and th
 npm i --no-package-lock
 ```
 
-Then run `np` or `npm run release`.
+The repository uses sematic release with the conventionalcommits preset to deploy releases.
+
+Details regarding these types can be found in the official [CONTRIBUTING][CONTRIBUTING.md] guide.
 
 ## Complementary tools
 
 ### Editor plugins
 
 * Sublime Text 3:
-    * [SublimeLinter-eslint](https://github.com/roadhump/SublimeLinter-eslint)
-    * [Build Next](https://github.com/albertosantini/sublimetext-buildnext)
+  * [SublimeLinter-eslint](https://github.com/roadhump/SublimeLinter-eslint)
+  * [Build Next](https://github.com/albertosantini/sublimetext-buildnext)
 * Vim:
-    * [ALE](https://github.com/w0rp/ale)
-    * [Syntastic](https://github.com/vim-syntastic/syntastic/tree/master/syntax_checkers/javascript)
+  * [ALE](https://github.com/w0rp/ale)
+  * [Syntastic](https://github.com/vim-syntastic/syntastic/tree/master/syntax_checkers/javascript)
 * Emacs: [Flycheck](http://www.flycheck.org/) supports ESLint with the [javascript-eslint](http://www.flycheck.org/en/latest/languages.html#javascript) checker.
 * Eclipse Orion: ESLint is the [default linter](https://dev.eclipse.org/mhonarc/lists/orion-dev/msg02718.html)
 * Eclipse IDE: [Tern ESLint linter](https://github.com/angelozerr/tern.java/wiki/Tern-Linter-ESLint)
@@ -106,7 +110,7 @@ Find eslint rules that are not configured in your eslint config. This is useful 
 
 Running this in your root folder will show the list.
 
-```
+```bash
 npx eslint-find-rules
 ```
 
