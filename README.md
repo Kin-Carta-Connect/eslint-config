@@ -81,7 +81,7 @@ npm i --no-package-lock
 
 The repository uses sematic release with the conventionalcommits preset to deploy releases.
 
-Details regarding these types can be found in the official [CONTRIBUTING][CONTRIBUTING.md] guide.
+Details regarding these types can be found in the official [CONTRIBUTING](CONTRIBUTING.md) guide.
 
 ## Complementary tools
 
