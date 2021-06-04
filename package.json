@@ -43,7 +43,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-react": "^7.14.2",
-    "eslint-plugin-unicorn": "^27.0.0"
+    "eslint-plugin-unicorn": "^33.0.1"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
